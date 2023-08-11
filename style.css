@@ -408,3 +408,29 @@ body, html {
     right: 78%;
     width: 70px;
 }
+
+.cursor-photos {
+    position: absolute;
+    bottom: 84%;
+    right: 78%;
+    width: 70px;
+}
+
+.cornerFlower {
+    position: absolute;
+    bottom: 81%;
+    right: 0%;
+    width: 150px;
+}
+
+/* .flowerRow {
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+    width: 800px;
+} */
+
+.photosWhole {
+    background-image: url("flowerRow.png");
+    background-size: contain;
+}
