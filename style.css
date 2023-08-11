@@ -5,6 +5,7 @@ body, html {
     height: 100%;
     background-image: linear-gradient(#E3D6FF, #FFD6FD);
     padding-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .pageTitle {
@@ -67,6 +68,9 @@ body, html {
 .folder {
     height: 150px;
 }
+.folder:hover {
+    cursor: pointer;
+}
 
 .folder-text {
     margin-top: -20px;
@@ -120,7 +124,6 @@ body, html {
     margin-top: -50px;
 }
 
-/* Grow Rotate */
 .hvr-grow-rotate {
     display: inline-block;
     vertical-align: middle;
@@ -132,7 +135,60 @@ body, html {
     -webkit-transition-property: transform;
     transition-property: transform;
   }
-  .hvr-grow-rotate:hover, .hvr-grow-rotate:focus, .hvr-grow-rotate:active {
+.hvr-grow-rotate:hover, .hvr-grow-rotate:focus, .hvr-grow-rotate:active {
     -webkit-transform: scale(1.1) rotate(4deg);
     transform: scale(1.1) rotate(4deg);
-  }
+}
+
+.groupPhotos {
+    text-align: center;
+    background-color: white;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 60px;
+    font-family: 'IBM Plex Mono', monospace;
+    border: 3px solid #D08AD7;
+    box-shadow: 5px 5px 5px #c0a1c2;
+}
+
+.groupHeader {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.gallery {
+    height: 220px;
+    width: 220px;
+    object-fit: cover;
+    margin: 10px;
+    border-radius: 5px;
+    border: 15px solid white;
+}
+  
+.gallery:hover {
+    transform: scale(1.1);
+}
+  
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* padding-top: 25px;
+    padding-bottom: 25px; */
+}
+
+.footer {
+    text-align: center;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10px;
+}
+
+.bottom-btn {
+    text-align: center;
+}
+.gal-btn {
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
